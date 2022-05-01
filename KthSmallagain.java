@@ -1,12 +1,13 @@
 import java.io.*;
+import java.util.*;
 import javafx.util.Pair;
-import java.util.ArrayList;
 
 
 public class KthSmallagain {
-    static Scanner sc = new Scanner(System.in);
-    public void solve()
+    
+    static void solve()
     {
+        Scanner sc = new Scanner(System.in);
         int n=0,q=0;
         n = sc.nextInt();
         q= sc.nextInt();
@@ -49,6 +50,7 @@ public class KthSmallagain {
         }
     }
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
         while(t-- >0)
         {
